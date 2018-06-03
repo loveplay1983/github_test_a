@@ -1,3 +1,4 @@
 dev
 change commit to alias cit
 change log --oneline to lg
+add customized log command { log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit}
