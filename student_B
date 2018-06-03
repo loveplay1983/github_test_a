@@ -1,0 +1,1000 @@
+ 1061  git stash list
+ 1062  git stash
+ 1063  git stash list
+ 1064  git stash apply stash@0
+ 1065  git stash apply stash@{0}
+ 1066  git branch
+ 1067  git checkout master
+ 1068  git status
+ 1069  git log --oneline 
+ 1070  git status
+ 1071  git checkout dev
+ 1072  ll
+ 1073  clear
+ 1074  ll
+ 1075  vi index.html 
+ 1076  vim readme 
+ 1077  git checkout master 
+ 1078  vim index.html 
+ 1079  vim readme 
+ 1080  git checkout dev
+ 1081  ll
+ 1082  clear
+ 1083  git checkout -b feature
+ 1084  git branch -d feature 
+ 1085  git checkout -b feature_001
+ 1086  git branch
+ 1087  man history
+ 1088  dir
+ 1089  history ?> 
+ 1090  history > git_study_note
+ 1091  dir
+ 1092  p
+ 1093  pwd
+ 1094  mv git_study_note ../
+ 1095  dir
+ 1096  cd ..
+ 1097  dir
+ 1098  vim git_study_note 
+ 1099  clear
+ 1100  mkdir github_test
+ 1101  cd github_test
+ 1102  dir
+ 1103  p
+ 1104  git init
+ 1105  cd ..
+ 1106  dir
+ 1107  cp index.html main.js style.cs github_test/
+ 1108  cd github_test/
+ 1109  ll
+ 1110  l
+ 1111  cleawr
+ 1112  clear
+ 1113  l
+ 1114  ll
+ 1115  git init
+ 1116  git branch
+ 1117  l
+ 1118  rm -f *
+ 1119  ll
+ 1120  rm -f .git
+ 1121  rm -f -R .git/
+ 1122  l
+ 1123  cd..
+ 1124  cd ..
+ 1125  dir
+ 1126  cd git_bug_test/
+ 1127  l
+ 1128  git branch 
+ 1129  l
+ 1130  cp * -R ../github_test/
+ 1131  cd ..
+ 1132  cd github_test/
+ 1133  l
+ 1134  git branch
+ 1135  .
+ 1136  dir
+ 1137  l
+ 1138  ll
+ 1139  p
+ 1140  cd ..
+ 1141  dir
+ 1142  cp -R git_bug_test/.git/ github_test/
+ 1143  cd github_test/
+ 1144  l
+ 1145  ll
+ 1146  git branch
+ 1147  clear
+ 1148  git branch
+ 1149  git status
+ 1150  git checkout master 
+ 1151  git status
+ 1152  clear
+ 1153  git add index.html 
+ 1154  git commit -m 'commit index.html'
+ 1155  git status
+ 1156  git rm index.html 
+ 1157  git status
+ 1158  git commit index.html -m 'add index.html css link'
+ 1159  git status
+ 1160  l
+ 1161  git log --online
+ 1162  git log --oneline 
+ 1163  git reset --soft HEAD~0
+ 1164  git log --oneline 
+ 1165  git status
+ 1166  git reset --soft HEAD~1
+ 1167  git status
+ 1168  git log --oneline
+ 1169  l
+ 1170  git status
+ 1171  git log --oneline
+ 1172  git reset --soft HEAD~1
+ 1173  git status
+ 1174  git log --oneline 
+ 1175  l
+ 1176  git status
+ 1177  git reset HEAD index.html
+ 1178  l
+ 1179  git branch
+ 1180  clear
+ 1181  l
+ 1182  git status
+ 1183  git checkout -- index.html
+ 1184  l
+ 1185  git status
+ 1186  git log --oneline 
+ 1187  clear
+ 1188  git status
+ 1189  l
+ 1190  git add .
+ 1191  git commit 'add all'
+ 1192  git commit -m 'add all'
+ 1193  git status
+ 1194  l
+ 1195  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1196  git push -u origin master
+ 1197  git branch
+ 1198  p
+ 1199  clear
+ 1200  git branch
+ 1201  p
+ 1202  pwd
+ 1203  cd ..
+ 1204  mkdir github_test_b
+ 1205  git clone git@github.com:loveplay1983/github_test.git
+ 1206  pwd
+ 1207  p
+ 1208  cd ..
+ 1209  dir
+ 1210  cd git_test/
+ 1211  dir
+ 1212  cd github_test_b/
+ 1213  l
+ 1214  git clone git@github.com:loveplay1983/github_test.git
+ 1215  dir
+ 1216  cd github_test/
+ 1217  l
+ 1218  ll
+ 1219  git branch
+ 1220  git branch -r
+ 1221  git branch
+ 1222  l
+ 1223  p
+ 1224  l
+ 1225  dir
+ 1226  cd ..
+ 1227  dir
+ 1228  cd ..
+ 1229  dir
+ 1230  cd github_test
+ 1231  dir
+ 1232  git brance
+ 1233  git branch
+ 1234  git branch -u
+ 1235  git branch -r
+ 1236  cd ..
+ 1237  dir
+ 1238  cd github_test_b/
+ 1239  dir
+ 1240  l
+ 1241  clear
+ 1242  cd github_test/
+ 1243  l
+ 1244  git branch
+ 1245  git branch -r
+ 1246  git branch -a
+ 1247  l
+ 1248  cat readme 
+ 1249  git checkout -b dev
+ 1250  git branch
+ 1251  git branch -a
+ 1252  clear
+ 1253  git branch -a
+ 1254  git checkout dev origin/dev
+ 1255  git checkout -b dev origin/dev
+ 1256  git branch -d dev
+ 1257  git checkout master 
+ 1258  git branch -d dev
+ 1259  git checkout -b dev origin/dev
+ 1260  git branch -a
+ 1261  clear
+ 1262  git branch -a
+ 1263  cat readme 
+ 1264  p
+ 1265  git branch 
+ 1266  l
+ 1267  cat readme 
+ 1268  dir
+ 1269  cd ..
+ 1270  l
+ 1271  cd ..
+ 1272  dir
+ 1273  cd ..
+ 1274  dir
+ 1275  cd git_test/
+ 1276  l
+ 1277  rm -R -f github_test_b/
+ 1278  l
+ 1279  clear
+ 1280  dir
+ 1281  l
+ 1282  cd github_test/
+ 1283  l
+ 1284  git branch
+ 1285  cat readme 
+ 1286  l
+ 1287  ll
+ 1288  git log --oneline 
+ 1289  cd ..
+ 1290  l
+ 1291  cd -
+ 1292  git checkout master 
+ 1293  l
+ 1294  git log --oneline 
+ 1295  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1296  dir
+ 1297  git init
+ 1298  git add *
+ 1299  git commit -m 'add all'
+ 1300  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1301  dir
+ 1302  ll
+ 1303  rm -R -f .git/
+ 1304  l
+ 1305  git init
+ 1306  git add .
+ 1307  git commit -m 'add all'
+ 1308  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1309  git push -u origin master
+ 1310  git branch
+ 1311  l
+ 1312  cd ..
+ 1313  di
+ 1314  p
+ 1315  pwd
+ 1316  cd ..
+ 1317  dir
+ 1318  cd git_test/
+ 1319  dir
+ 1320  rm -R -f github_test/
+ 1321  l
+ 1322  mkdir github_test; cp -R * git_bug_test/ github_test/
+ 1323  l
+ 1324  cp * -r git_bug_test/  github_test/
+ 1325  l
+ 1326  cd github_test/
+ 1327  ll
+ 1328  rm -R -f *
+ 1329  l
+ 1330  cd ..
+ 1331  dir
+ 1332  cd git_bug_test/
+ 1333  l
+ 1334  ll
+ 1335  cp * -r ../github_test/
+ 1336  cd ..
+ 1337  cd github_test/
+ 1338  l
+ 1339  ll
+ 1340  ll ../
+ 1341  cp ../git_bug_test/.git/ 
+ 1342  cp ../git_bug_test/.git/ .
+ 1343  cp -r ../git_bug_test/.git/ .
+ 1344  ll
+ 1345  p
+ 1346  git branch -r
+ 1347  clear
+ 1348  git branch -a
+ 1349  git checkout master 
+ 1350  git checkout dev 
+ 1351  cat readme 
+ 1352  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1353  git push -u origin master
+ 1354  git branch -r
+ 1355  git branch -a
+ 1356  clear
+ 1357  git branch -a
+ 1358  git checkout -b dev origin/dev
+ 1359  git checkout master
+ 1360  p
+ 1361  l
+ 1362  ll
+ 1363  git branch
+ 1364  git branch -a
+ 1365  git branch -r
+ 1366  clear
+ 1367  l
+ 1368  p
+ 1369  mkdir branch_1
+ 1370  cd branch_1/
+ 1371  l
+ 1372  git clone git@github.com:loveplay1983/github_test.git
+ 1373  git branch -a
+ 1374  p
+ 1375  git checkout -b dev origin/dev/
+ 1376  git checkout -b dev origin/dev
+ 1377  clear
+ 1378  git checkout -b dev origin/dev
+ 1379  p
+ 1380  dir
+ 1381  git branch
+ 1382  git branch -a
+ 1383  l
+ 1384  dir
+ 1385  pwd
+ 1386  dir
+ 1387  cd github_test/
+ 1388  l
+ 1389  git branch -a
+ 1390  git checkout -b dev origin/dev
+ 1391  p
+ 1392  l
+ 1393  cd ..
+ 1394  dir
+ 1395  cd github_test/
+ 1396  ll
+ 1397  clear
+ 1398  cat readme 
+ 1399  p
+ 1400  dir
+ 1401  git branch -a
+ 1402  git branch
+ 1403  git branch -r
+ 1404  git branch -a
+ 1405  git branch -r
+ 1406  git branch 
+ 1407  clear
+ 1408  git branch 
+ 1409  p
+ 1410  clear
+ 1411  pwd
+ 1412  git branch
+ 1413  git branch -a
+ 1414  dir
+ 1415  cd ..
+ 1416  l
+ 1417  rm -f -R * 
+ 1418  l
+ 1419  p
+ 1420  git@github.com:loveplay1983/github_test.git
+ 1421  git clone git@github.com:loveplay1983/github_test.git
+ 1422  cd github_test/
+ 1423  ll
+ 1424  git branch
+ 1425  git branch -a
+ 1426  cat readme 
+ 1427  p
+ 1428  l
+ 1429  git branch -a
+ 1430  clear
+ 1431  git branch -a
+ 1432  git checkout -b dev origin/dev
+ 1433  git branch -a
+ 1434  cat readme 
+ 1435  p
+ 1436  git remote -v
+ 1437  p
+ 1438  git branch -a
+ 1439  git remote -v
+ 1440  dir
+ 1441  cd ..
+ 1442  dir
+ 1443  cd testB
+ 1444  dir
+ 1445  git branch -r
+ 1446  git branch -a
+ 1447  git checkout -b dev
+ 1448  clear
+ 1449  git branch -a
+ 1450  git branch -ddev
+ 1451  git branch -dev
+ 1452  cleawr
+ 1453  git branch -d dev
+ 1454  clear
+ 1455  dir
+ 1456  git branch aa
+ 1457  git branch -a
+ 1458  git branch -d dev
+ 1459  git branch -d aa
+ 1460  git checkout master
+ 1461  git branch -d dev
+ 1462  clear
+ 1463  ll
+ 1464  clear
+ 1465  git branch -a
+ 1466  git checkout -b dev origin/dev
+ 1467  l
+ 1468  git branch -a
+ 1469  cat readme 
+ 1470  git branch master
+ 1471  git checkout master
+ 1472  cat readme 
+ 1473  dir
+ 1474  p
+ 1475  cd ..
+ 1476  cd testB
+ 1477  ll
+ 1478  git branch -a
+ 1479  p
+ 1480  ll
+ 1481  clewar
+ 1482  clear
+ 1483  vim index.html 
+ 1484  git status
+ 1485  git commit -am 'add index.html script{main.js}'
+ 1486  git status
+ 1487  git log --oneline 
+ 1488  git push -u origin dev
+ 1489  p
+ 1490  dir
+ 1491  vim index.html 
+ 1492  git log --oneline 
+ 1493  git push origin dev
+ 1494  p
+ 1495  ll
+ 1496  git add index.html 
+ 1497  git commit -m 'add index.html script{main.js}'
+ 1498  git branch
+ 1499  vim index.html 
+ 1500  git status
+ 1501  git log --oneline 
+ 1502  git rm index.html 
+ 1503  git rm --cached index.html 
+ 1504  dir
+ 1505  vim index.html 
+ 1506  git status
+ 1507  git add index.html 
+ 1508  git commit -m 'add index.html again'
+ 1509  git status
+ 1510  git push origin master
+ 1511  l
+ 1512  clear
+ 1513  cat index.html 
+ 1514  dir
+ 1515  git checkout dev
+ 1516  git branch -a
+ 1517  vim index.html 
+ 1518  l
+ 1519  ll
+ 1520  git branch -a
+ 1521  git commit -am 'index.html add script{main.js}'
+ 1522  git status
+ 1523  git push origin dev
+ 1524  git status
+ 1525  clear
+ 1526  git status
+ 1527  git branch -a
+ 1528  vi readme 
+ 1529  git commit -am 'modify readme file for testB'
+ 1530  git pull origin ddev
+ 1531  git pull origin dev
+ 1532  p
+ 1533  cat readme 
+ 1534  git branch -a
+ 1535  git pull origin dev
+ 1536  Already up-to-date.
+ 1537  ll
+ 1538  cat readme 
+ 1539  clear
+ 1540  ll
+ 1541  git pull origin dev
+ 1542  vim readme 
+ 1543  git branch -a
+ 1544  git checkout origin dev
+ 1545  git checkout origin/dev
+ 1546  clear
+ 1547  ll
+ 1548  git branch -a
+ 1549  cat readme 
+ 1550  git checkout dev
+ 1551  p
+ 1552  git branch
+ 1553  git pull origin dev
+ 1554  ll
+ 1555  clear
+ 1556  p
+ 1557  dir
+ 1558  git log --online
+ 1559  git log --oneline
+ 1560  git reset HEAD~1
+ 1561  l
+ 1562  rm -f FETCH_HEAD 
+ 1563  ll
+ 1564  l
+ 1565  clear
+ 1566  ll
+ 1567  git status
+ 1568  cat readme 
+ 1569  git commit -am 'modify readme'
+ 1570  git status
+ 1571  clear
+ 1572  git status
+ 1573  clear
+ 1574  git pull origin dev
+ 1575  git branch 
+ 1576  git pull origin/dev
+ 1577  git pull origin dev
+ 1578  l
+ 1579  ll
+ 1580  clear
+ 1581  ll
+ 1582  git status
+ 1583  git push
+ 1584  cat readme 
+ 1585  ll
+ 1586  dir
+ 1587  vi readme 
+ 1588  git commit -am 'modify readme again'
+ 1589  git pull origin dev
+ 1590  git rm --cached readme
+ 1591  git status
+ 1592  git add readme 
+ 1593  git rm readme 
+ 1594  ll
+ 1595  git status
+ 1596  clear
+ 1597  ll
+ 1598  git status
+ 1599  git pull origin dev
+ 1600  ll
+ 1601  git branch
+ 1602  git pull origin dev
+ 1603  git status
+ 1604  git push
+ 1605  git status
+ 1606  git reset HEAD reademe
+ 1607  git reset HEAD readme
+ 1608  ll
+ 1609  git status
+ 1610  git checkout -- readme
+ 1611  git status
+ 1612  clear
+ 1613  ll
+ 1614  cat readme 
+ 1615  git pull origin dev
+ 1616  clear
+ 1617  git pull origin dev
+ 1618  git status
+ 1619  cat readme 
+ 1620  vi readme 
+ 1621  git pull origin dev
+ 1622  vi readme 
+ 1623  git status
+ 1624  git commit -am 'modify readme'
+ 1625  git pull origin dev
+ 1626  cat readme 
+ 1627  git status
+ 1628  git pull origin dev
+ 1629  l
+ 1630  dir
+ 1631  cd ..
+ 1632  dir
+ 1633  cd ..
+ 1634  cd git_bug_test/
+ 1635  ll
+ 1636  cp * ../github_test/
+ 1637  cp .git/ ../github_test/
+ 1638  cp -r .git/ ../github_test/
+ 1639  l
+ 1640  p
+ 1641  cd ..
+ 1642  dir
+ 1643  cd github_test/
+ 1644  l
+ 1645  clear
+ 1646  l
+ 1647  git branch
+ 1648  p
+ 1649  cl
+ 1650  l
+ 1651  p
+ 1652  git push -u origin dev
+ 1653  git branch -
+ 1654  git branch -a
+ 1655  p
+ 1656  l
+ 1657  clear
+ 1658  l
+ 1659  cd dev/
+ 1660  ll
+ 1661  cd dev_00/
+ 1662  ll
+ 1663  p
+ 1664  cd -
+ 1665  cd ..
+ 1666  dir
+ 1667  l
+ 1668  clear
+ 1669  l
+ 1670  git pull origin dev
+ 1671  cat index.html 
+ 1672  git branch -a
+ 1673  git branch dev
+ 1674  git checkout dev
+ 1675  clear
+ 1676  git checkout dev
+ 1677  git status
+ 1678  git pull origin dev
+ 1679  clear
+ 1680  cd ..
+ 1681  dir
+ 1682  p
+ 1683  cd ..
+ 1684  dir
+ 1685  cd ..
+ 1686  dir
+ 1687  cd github_test/
+ 1688  ll
+ 1689  git branch -a
+ 1690  p
+ 1691  ll
+ 1692  git
+ 1693  git branch -a
+ 1694  pwd
+ 1695  dir
+ 1696  p
+ 1697  git branch -a
+ 1698  git branch -r
+ 1699  clear
+ 1700  git branch -r
+ 1701  git branch
+ 1702  git push -u origin dev
+ 1703  git branch -a
+ 1704  p
+ 1705  l
+ 1706  git branch
+ 1707  cat readme 
+ 1708  git checkout dev 
+ 1709  cat readme 
+ 1710  p
+ 1711  l
+ 1712  git remote -v
+ 1713  dir
+ 1714  mv branch_1/ ..
+ 1715  dir
+ 1716  cd ..
+ 1717  dir
+ 1718  mv branch_1/ github_test_b
+ 1719  cd git
+ 1720  cd github_test_b/
+ 1721  dir
+ 1722  mv github_test/ github_test_b
+ 1723  p
+ 1724  dir
+ 1725  cd github_test_b/
+ 1726  dir
+ 1727  cd ..
+ 1728  dir
+ 1729  p
+ 1730  l
+ 1731  mv github_test_b/ ../
+ 1732  dir
+ 1733  p
+ 1734  cd
+ 1735  p
+ 1736  cd -
+ 1737  dir
+ 1738  cd github_test_b/
+ 1739  dir
+ 1740  cd ..
+ 1741  dir
+ 1742  mv github_test_b/ ../github_test
+ 1743  cd ..
+ 1744  dir
+ 1745  cd github_test_b/
+ 1746  ll
+ 1747  cd ..
+ 1748  dir
+ 1749  mv 
+ 1750  rm -R -f github_test
+ 1751  dir
+ 1752  cd git
+ 1753  github_test_b/
+ 1754  rm -f -R github_test_b/
+ 1755  l
+ 1756  clear
+ 1757  ll
+ 1758  mkdir github_test
+ 1759  cd git
+ 1760  cd github_test/
+ 1761  ll
+ 1762  clear
+ 1763  mkdir a
+ 1764  rm a
+ 1765  rm -R a
+ 1766  mkdir test_A
+ 1767  rm -R test_A/
+ 1768  mkdir testA
+ 1769  mkdir testB
+ 1770  clear
+ 1771  cd test
+ 1772  cd testA/
+ 1773  dir
+ 1774  git clone git@github.com:loveplay1983/github_test.git
+ 1775  dir
+ 1776  cd github_test/
+ 1777  dir
+ 1778  cd ..
+ 1779  dir
+ 1780  cd github_test/
+ 1781  mv * -R ../
+ 1782  mv * -r ../
+ 1783  mv -r * ../
+ 1784  dir
+ 1785  p
+ 1786  mv * ../
+ 1787  dir
+ 1788  cd ..
+ 1789  dir
+ 1790  rm -R github_test/
+ 1791  dir
+ 1792  cd github_test/
+ 1793  ll
+ 1794  mv .git/ ..
+ 1795  dir
+ 1796  ll
+ 1797  cd ..
+ 1798  dir
+ 1799  rm -R github_test/
+ 1800  l
+ 1801  ll
+ 1802  cd ..
+ 1803  dir
+ 1804  cd github_test/
+ 1805  ll
+ 1806  tree
+ 1807  man tree
+ 1808  tree -a
+ 1809  clear
+ 1810  tree -a
+ 1811  cd ..
+ 1812  dir
+ 1813  cd github_test/
+ 1814  cd testA
+ 1815  dir
+ 1816  cp * ../testB
+ 1817  dir
+ 1818  cd ..
+ 1819  dir
+ 1820  cd test
+ 1821  cd testB
+ 1822  ll
+ 1823  cp ../testA/.git/ 
+ 1824  cp ../testA/.git/ .
+ 1825  cp * ../testA/.git/ .
+ 1826  dir
+ 1827  cd ..
+ 1828  dir
+ 1829  cd testA
+ 1830  dir
+ 1831  ll
+ 1832  cp .git/ ../testB/.
+ 1833  cp .git/ ../testB/
+ 1834  dir
+ 1835  cd ..
+ 1836  dir
+ 1837  cd ..
+ 1838  dir
+ 1839  cd github_test/
+ 1840  ll
+ 1841  cd testB
+ 1842  l
+ 1843  ll
+ 1844  rm -R *
+ 1845  ll
+ 1846  git clone git@github.com:loveplay1983/github_test.git
+ 1847  mv * ../
+ 1848  dir
+ 1849  ll
+ 1850  cd ..
+ 1851  dor
+ 1852  dir
+ 1853  clear
+ 1854  ll
+ 1855  cd github_test/
+ 1856  ll
+ 1857  mv * ../testb
+ 1858  mv * ../testB
+ 1859  cd ..
+ 1860  ll
+ 1861  cd github_test/
+ 1862  ll
+ 1863  mv .git/ ../testB
+ 1864  ll
+ 1865  cd ..
+ 1866  ll
+ 1867  cd testB
+ 1868  ll
+ 1869  rm -R ../github_test/
+ 1870  ll
+ 1871  cd ..
+ 1872  ll
+ 1873  cd testA
+ 1874  ll
+ 1875  git branch -a
+ 1876  cd ..
+ 1877  cd -
+ 1878  clear
+ 1879  git branch -a
+ 1880  git checkout -b dev origin/dev
+ 1881  l
+ 1882  git branch -a
+ 1883  clear
+ 1884  git branch -a
+ 1885  p
+ 1886  dir
+ 1887  vim index.html 
+ 1888  git pull origin dev
+ 1889  cat index.html 
+ 1890  git branch -a
+ 1891  ll
+ 1892  clear
+ 1893  vim readme 
+ 1894  p
+ 1895  git commit -am 'modify readme file for testA'
+ 1896  cat readme 
+ 1897  dir
+ 1898  cat readme 
+ 1899  git commit -am 'modify readme file for testA'
+ 1900  clear
+ 1901  p
+ 1902  vim readme 
+ 1903  cat readme 
+ 1904  git branch -a
+ 1905  git rm readme -cached
+ 1906  git rm readme --carched
+ 1907  git rm --cached readme 
+ 1908  ll
+ 1909  git log --oneline 
+ 1910  git reset HEAD~1
+ 1911  ll
+ 1912  git status
+ 1913  cat readme 
+ 1914  git log --oneline
+ 1915  git commit -am 'modify readme'
+ 1916  l
+ 1917  ll
+ 1918  cat readme 
+ 1919  dir
+ 1920  ll
+ 1921  cd ..
+ 1922  dir
+ 1923  rm -f -R github_test/
+ 1924  l
+ 1925  cleawr
+ 1926  clear
+ 1927  l
+ 1928  cp * git_bug_test/ github_test
+ 1929  cp * git_bug_test/ github_test/
+ 1930  mkdir github_test
+ 1931  cp * git_bug_test/ github_test/
+ 1932  cp -f -r * git_bug_test/ github_test/
+ 1933  l
+ 1934  cd github_test/
+ 1935  l
+ 1936  rm -f -R *
+ 1937  l
+ 1938  clear
+ 1939  p
+ 1940  l
+ 1941  ll
+ 1942  git remote add origin git@github.com:loveplay1983/github_test.git
+ 1943  git push -u origin master
+ 1944  l
+ 1945  mkdir dev
+ 1946  cd dev
+ 1947  dir
+ 1948  mkdir dev_00
+ 1949  cd dev_00/
+ 1950  git clone git@github.com:loveplay1983/github_test.git
+ 1951  ll
+ 1952  clear
+ 1953  l
+ 1954  cd github_test/
+ 1955  l
+ 1956  ll
+ 1957  vi readme 
+ 1958  git branch
+ 1959  p
+ 1960  git branch -a
+ 1961  clear
+ 1962  git branch -a
+ 1963  l
+ 1964  ll
+ 1965  rm -f -R *
+ 1966  ll
+ 1967  git clone git@github.com:loveplay1983/github_test.git
+ 1968  clear
+ 1969  git branch -a
+ 1970  cat re
+ 1971  ll
+ 1972  cd github_test/
+ 1973  cd ..
+ 1974  dir
+ 1975  ll
+ 1976  rm -f -R .git/
+ 1977  ll
+ 1978  cd github_test/
+ 1979  ll
+ 1980  p
+ 1981  l
+ 1982  cat readme 
+ 1983  git checkout -b dev origin/dev
+ 1984  git branch =-a
+ 1985  git branch -a
+ 1986  git branch -d =-a
+ 1987  git branch -a
+ 1988  cl
+ 1989  git branch -a
+ 1990  cat readme 
+ 1991  p
+ 1992  dir
+ 1993  vim index.html 
+ 1994  l
+ 1995  git commit -am 'add index.html script'
+ 1996  p
+ 1997  git log --oneline 
+ 1998  clear
+ 1999  git push origin dev
+ 2000  p
+ 2001  cd ..
+ 2002  l
+ 2003  cd github_test_b/
+ 2004  l
+ 2005  ll
+ 2006  l
+ 2007  git clone git@github.com:loveplay1983/github_test_a.git
+ 2008  git branch -a
+ 2009  git checkout -b dev origin/dv
+ 2010  git checkout -b dev origin/dev
+ 2011  clear
+ 2012  git branch -a
+ 2013  git branch -r
+ 2014  git pull origin dev
+ 2015  git branch -a
+ 2016  git checkout -b dev origin/dev
+ 2017  git branch -a
+ 2018  ll
+ 2019  cd github_test_a/
+ 2020  ll
+ 2021  cd ..
+ 2022  dir
+ 2023  ll
+ 2024  p
+ 2025  git branch -a
+ 2026  pwd
+ 2027  ll
+ 2028  rm -R -f *
+ 2029  l
+ 2030  git clone git@github.com:loveplay1983/github_test_a.git
+ 2031  cd github_test_a/
+ 2032  ll
+ 2033  clear
+ 2034  l
+ 2035  ll
+ 2036  git branch -a
+ 2037  cat readme 
+ 2038  git checkout -b dev origin/dev
+ 2039  p
+ 2040  clear
+ 2041  git branch -a
+ 2042  cat readme 
+ 2043  p
+ 2044  vim index.html 
+ 2045  git status
+ 2046  git commit -am 'add index.html script'
+ 2047  git branch 
+ 2048  git push origin dev
+ 2049  vi readme 
+ 2050  git commit -am 'modify test B readme'
+ 2051  git pull origin dev
+ 2052  vi readme 
+ 2053  git commit -am 'modify readme test b'
+ 2054  git push -u origin dev
+ 2055  ll
+ 2056  clear
+ 2057  ll
+ 2058  echo history > student_B
+ 2059  vim student_B 
+ 2060  history > student_B 
